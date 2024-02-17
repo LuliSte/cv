@@ -1,0 +1,49 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00f7ff, #4cffc9, #c4d626);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  footer{
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  #testimonial{
+    display: block;
+  }
+
+  img{
+    width: 200px;
+    border-radius: 50%;
+  }
+  html,body,h1,h2,h3,h4,h5,h6,a {font-family: "Roboto", sans-serif; color:lightslategray;}
+  h1.awe{font-size:6rem;}
+  p.lead{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+ .links{
+    display:inline-flex;
+    
+  }
+
+  .navLink{
+    margin-left: 20px;
+  }
